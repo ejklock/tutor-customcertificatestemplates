@@ -1,0 +1,5 @@
+name: customcertificates
+version: 0.1.0
+patches:
+  openedx-common-settings: |
+    FEATURES["CUSTOM_CERTIFICATE_TEMPLATES_ENABLED"] = True
