@@ -1,5 +1,6 @@
 name: customcertificates
 version: 0.1.0
 patches:
-  openedx-common-settings: |
+  lms-env-feature: |
+    # enable custom certificates templates
     FEATURES["CUSTOM_CERTIFICATE_TEMPLATES_ENABLED"] = True
