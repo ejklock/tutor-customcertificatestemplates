@@ -1,6 +1,6 @@
 name: customcertificates
 version: 0.1.0
 patches:
-  lms-env-feature: |
-    # enable custom certificates templates
-    FEATURES["CUSTOM_CERTIFICATE_TEMPLATES_ENABLED"] = True
+  common-env-features: |
+    "CUSTOM_CERTIFICATE_TEMPLATES_ENABLED": true,
+    "ORGANIZATIONS_APP": true
